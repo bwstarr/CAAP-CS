@@ -1,2 +1,3 @@
 Task 6
 ------
+I did the comand: git commit amend. I discovered this on https://www.atlassian.com/git/tutorials/rewriting-history.
