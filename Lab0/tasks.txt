@@ -6,3 +6,6 @@ Task 7
 I searched for commits conataining the the phrase --no-mouse using *** --no-mouse rep:junegunn/fzf *** on the search area of github. I discovered this on https://help.github.com/en/articles/searching-commits.
 Task 8
 ------
+I used *** git diff *** to find the unstaged file changes. I used the Git Cheat Sheet to do so.
+Task 9
+------
