@@ -9,3 +9,6 @@ Task 8
 I used *** git diff *** to find the unstaged file changes. I used the Git Cheat Sheet to do so.
 Task 9
 ------
+I used the git rm comand, added it using git add ., and sent a message with my commit. I used the manual on git.
+Task 10
+------
