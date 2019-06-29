@@ -1,3 +1,8 @@
 Task 6
 ------
 I did the comand: git commit amend. I discovered this on https://www.atlassian.com/git/tutorials/rewriting-history.
+Task 7
+------
+I searched for commits conataining the the phrase --no-mouse using *** --no-mouse rep:junegunn/fzf *** on the search area of github. I discovered this on https://help.github.com/en/articles/searching-commits.
+Task 8
+------
