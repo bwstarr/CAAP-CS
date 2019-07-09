@@ -1,0 +1,64 @@
+div {
+    background-color: darkgreen;
+    border-bottom-style:groove;
+    border-bottom-width: thick
+}
+header{
+   float:inherit;
+}
+div ul {
+    list-style-type:none;
+    overflow: hidden;
+    background-color:darkgrey;
+    position: relative;
+    padding: 0;
+    
+    }
+div img{
+    position: relative;
+    left: 700
+}
+nav ul li{
+    padding: 0;
+    list-style:none;
+    float: left;
+    display: block;
+    
+}
+body{
+    background-color: aqua;
+    font-family: cursive;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: visible;
+}
+h1{
+    position: relative;
+    
+}
+footer{
+    background-color: green;
+    border-top-style: groove;
+    border-top-width: thick;
+    
+}
+footer.Company img{
+    position: relative;
+    left: 670px;
+    
+    
+}
+div footer img{
+    position: relative;
+    left: 500px;
+    
+    
+}
+p.Short img{
+    position:relative;
+    left: 500px;
+}
+h1{
+    position: realtive;
+    left: 400px;
+}
