@@ -16,7 +16,7 @@ div ul {
     }
 div img{
     position: relative;
-    left: 700
+    left: 700px
 }
 nav ul li{
     padding: 0;
@@ -59,6 +59,6 @@ p.Short img{
     left: 500px;
 }
 h1{
-    position: realtive;
+    position: relative;
     left: 400px;
 }
