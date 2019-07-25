@@ -39,4 +39,4 @@ class Leaderboard(object):
 				k += 1
 			if comp.get_gen()>=score.get_gen():
 				self.board.append(score)
-				self.board.remove(comp#This leaderboard takes up to 100 scores, and returns as many as the player wishes to see. 
+				self.board.remove(comp)#This leaderboard takes up to 100 scores, and returns as many as the player wishes to see. 
