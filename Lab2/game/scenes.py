@@ -20,7 +20,7 @@ class Room(Scene):
 	name = 'Room'
 
 	def enter(self):
-		print ("You are about to embark on your journey for peanut butter. But first, you must leave.") 
+		print ("You are about to embark on your journey for peanut butter. However, it's past curfew! You must find a way to get out and back without your RA Catching. First, you must leave your room.") 
 		return self.action()
 		
 		
@@ -90,7 +90,7 @@ class Elevator(Scene):
 			return self.exit_scene(self.name)
 
 	def exit_scene(self, outcome):
-		return outcome
+		return outcome#This is the opening scene
 
 class Extra_lock(Scene):
 	
@@ -136,7 +136,7 @@ class Extra_lock(Scene):
 			return self.exit_scene(self.name)
 
 	def exit_scene(self, outcome):
-		return outcome
+		return outcome#This is one of the endings, which includes texting me...
 		
 class text(Scene):
 	
@@ -183,7 +183,7 @@ class text(Scene):
 			return self.exit_scene(self.name)
 
 	def exit_scene(self, outcome):
-		return outcome
+		return outcome#This is the scene in which an RA texts you, but only if you leave with a friend
 	
 class Friend_solo(Scene):
 	
@@ -220,7 +220,7 @@ class Friend_solo(Scene):
 			return self.exit_scene(self.name)
 
 	def exit_scene(self, outcome):
-		return outcome
+		return outcome#This is where you decide on whether or not to take a friend with
 	
 class Reentry_solo(Scene):
 	
@@ -251,8 +251,8 @@ class Reentry_solo(Scene):
 			print ("Realizing the folly in signing in, you try to slip in. However, as you try to sneak by the recptionist catches you. Your RA is called as a matter of course, and you're screwed.")        #the actions lead to different scenes
 			return self.exit_scene('death') # raise ValueError ('todo')
 		elif int(choice) == 2:
-			print ("Setting your phone in a corner, you set a firealarm recording to blare in 30 sec. In the ensuing confusion, you slip in. You may have lost your phone, but you have successfully attained your pb. Good work soldier!")
-			return self.exit_scene('finished') # raise ValueError ('todo')
+			print ("Setting your phone in a corner, you set a firealarm recording to blare in 30 sec. In the ensuing confusion, you slip in. You make it to the elevator.")
+			return self.exit_scene('Extra_lock') # raise ValueError ('todo')
 		elif int(choice) == 3:
 			if suspect >= 1:
 				print ("Yoy both tap in, make it to your rooms, and enjoy your pb. However, your ill-formed txt causes the RA to check the nightly records... You're scrwed.")
@@ -265,7 +265,7 @@ class Reentry_solo(Scene):
 			return self.exit_scene(self.name)
 
 	def exit_scene(self, outcome):
-		return outcome
+		return outcome#This is the only achived alone, and it's possible to end here
 	
 class Reentry_friend_good_txt(Scene):
 	
@@ -309,7 +309,7 @@ class Reentry_friend_good_txt(Scene):
 			return self.exit_scene(self.name)
 
 	def exit_scene(self, outcome):
-		return outcome
+		return outcome#Only occurs with a black lie text
 	
 class Reentry_friend_bad_txt(Scene):
 	
@@ -349,4 +349,4 @@ class Reentry_friend_bad_txt(Scene):
 
 	def exit_scene(self, outcome):
 		return outcome
-	
+#Only occurs with a white lie test
