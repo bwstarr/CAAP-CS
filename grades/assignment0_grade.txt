@@ -11,3 +11,10 @@ CAAP CMSC 101, Summer 2019
 8. Prior Experience					_/5 pts
 
 Total								_/40 pts
+
+Rubric:
+5 - Correct answer with work showing how they got to it or thorough plausible response
+4 - Good response, more details needed - correct answer but not enough work to demonstrate how they reached the answer or vice versa
+3 - Ok response, much more detail required
+2 - Very little detail, very little effort shown
+1 - Incorrect answer and/or little to no effort shown
