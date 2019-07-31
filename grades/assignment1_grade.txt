@@ -1,12 +1,18 @@
 Assignment 1
 CAAP CMSC 101, Summer 2019
 
-1. Hello world:						_/2 pts
-2. Converter:						_/6 pts
-3. Unit Conversion:					_/6 pts
-4. Slope:							_/10 pts
-5. Fibonacci Sequence:				_/6 pts
-6. Part 2 - Change:					_/20 pts
-7. Part 4:							_/10 pts
+1. Hello world:						5/2 pts
+2. Converter:						6/6 pts
+3. Unit Conversion:					6/6 pts
+4. Slope:							6/10 pts
+5. Fibonacci Sequence:				6/6 pts
+6. Part 2 - Change:					30/20 pts
+7. Part 4:							10/10 pts
 
-Total								_/60 pts
+Readme file							-8/0 pts
+
+Total								65/60 pts
+
+Comments:
+	-Your README file should be in the same directory as the rest of your code. It should also be clearer and more informative, explaining to the user how to run your program.
+	-MAKE SURE TO DOCUMENT ALL OF YOUR CODE!
