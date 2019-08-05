@@ -1,16 +1,18 @@
 Assignment 0
 CAAP CMSC 101, Summer 2019
 
-1. Left and Right					0/5 pts
-2. Gas Stations						0/5 pts
-3. Fruit Basket						0/5 pts
-4. Grandpa's Trick					0/5 pts
-5. Pirate's Treasure				0/5 pts
-6. Computer Science in the world	0/5 pts
-7. "Decent" Code					0/5 pts
-8. Prior Experience					0/5 pts
+1. Left and Right					5/5 pts
+2. Gas Stations						4/5 pts
+3. Fruit Basket						4/5 pts
+4. Grandpa's Trick					3/5 pts
+5. Pirate's Treasure				4/5 pts
+6. Computer Science in the world	3/5 pts
+7. "Decent" Code					3/5 pts
+8. Prior Experience					5/5 pts
 
-Total								0/40 pts
+Late								-10/0 pts
+
+Total								26/40 pts
 
 Comments:
 	-Missing files.
